@@ -12,4 +12,11 @@ func main() {
 	fmt.Println(nilai32)
 	fmt.Println(nilai64)
 	fmt.Println(nilai8)
+
+	var name = "Elen"
+	var e = name[1]
+	var eString = string(e)
+
+	fmt.Println(e)
+	fmt.Println(eString)
 }
